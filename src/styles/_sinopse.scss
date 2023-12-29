@@ -15,11 +15,19 @@
     padding-bottom: 100px;
     align-items: center;
 
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
     &__text {
       &--subtitle {
         font-size: 24px;
         padding-bottom: 20px;
         text-align: center;
+
+        @media (max-width: 768px) {
+          font-size: 18px;
+        }
       }
 
       &--text {
@@ -29,6 +37,9 @@
 
     &--image {
       width: 35vw;
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
   }
 }

@@ -12,6 +12,12 @@
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 4fr;
+      row-gap: 20px;
+    }
+
     &__item {
       text-align: center;
       img {

@@ -18,6 +18,12 @@
   align-items: center;
   justify-content: space-around;
 
+  @media (max-width: 768px) {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+
   h2 {
     color: #a58d73;
     text-transform: uppercase;
@@ -34,6 +40,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
+
+    @media (max-width: 768px) {
+      display: block;
+      justify-content: center;
+    }
 
     &__branding {
       width: 50vw;

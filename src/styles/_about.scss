@@ -2,6 +2,10 @@
   background-color: #281f1a;
   height: 25vh;
 
+  @media (max-width: 768px) {
+    padding-bottom: 250px;
+  }
+
   &__text {
     padding: 4vw 20vw;
     text-align: center;
