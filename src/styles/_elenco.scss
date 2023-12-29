@@ -1,0 +1,26 @@
+.elenco {
+  padding: 5.6vw;
+  background-color: #281f1a;
+
+  &__title {
+    color: #a58d73;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  &__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    &__item {
+      text-align: center;
+      img {
+        height: 150px;
+        border-radius: 4px;
+      }
+      p {
+        color: #a58d73;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  padding: 5.6vw;
+  background-color: #a58d73;
+  text-align: center;
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    &__item {
+      padding-right: 10px;
+      padding-bottom: 20px;
+      a {
+        img {
+          height: 30px;
+        }
+      }
+    }
+  }
+}

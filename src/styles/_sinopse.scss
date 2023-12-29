@@ -1,0 +1,34 @@
+.sinopse {
+  background-color: #a58d73;
+  color: #281f1a;
+  padding: 5.6vw;
+  justify-content: center;
+
+  &__title {
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
+    align-items: center;
+
+    &__text {
+      &--subtitle {
+        font-size: 24px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+      &--text {
+        font-size: 18px;
+      }
+    }
+
+    &--image {
+      width: 35vw;
+    }
+  }
+}

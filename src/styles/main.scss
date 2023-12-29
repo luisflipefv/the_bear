@@ -1,0 +1,42 @@
+@use "sinopse";
+@use "about";
+@use "footer";
+@use "elenco";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.hero {
+  height: 75vh;
+  padding: 5.6vw;
+  background-color: #281f1a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  h2 {
+    color: #a58d73;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    p {
+      font-size: 12px;
+      font-style: italic;
+      padding-top: 8px;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+
+    &__branding {
+      width: 50vw;
+    }
+  }
+}
